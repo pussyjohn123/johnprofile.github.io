@@ -1,0 +1,66 @@
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    /* 字體設置 */
+    background-color: white;
+    /* 背景顏色 */
+    margin: 0;
+    /* 移除預設的 margin */
+    padding: 20px;
+    /* 頁面內邊距 */
+}
+
+.header {
+    display: flex;
+    /* 將 header 設置為 flex 容器 */
+    align-items: center;
+    /* 垂直置中 */
+}
+
+.icon {
+    width: 300px;
+    /* 圖片寬度 */
+    height: 300px;
+    /* 圖片高度 */
+    margin-left: 350px;
+    /* 距離左側邊緣 250 像素 */
+    margin-right: 500px;
+    /* 圖片與導航欄之間的距離 */
+}
+
+.navbar {
+    background-color: #fff;
+    /* 導航欄背景顏色 */
+    padding: 20px;
+    /* 導航欄內邊距 */
+    width: 30%;
+    /* 導航欄寬度 */
+}
+
+.navbar-menu {
+    display: flex;
+    /* 將列表設為水平排列 */
+    align-items: center;
+    /* 垂直置中 */
+    justify-content: flex-end;
+    /* 靠右排列 */
+    list-style: none;
+    /* 移除預設的項目符號 */
+    margin: 0;
+    /* 移除 margin */
+    padding: 0;
+    /* 移除 padding */
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+    /* 每個項目的間距 */
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    /* 移除下劃線 */
+    color: #333;
+    /* 文字顏色 */
+    font-size: 20px;
+    /* 文字大小 */
+}
